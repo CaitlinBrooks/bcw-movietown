@@ -30,7 +30,31 @@ namespace ConsoleTheater
       myTheater.AddShowtime("5:15", 2);
       myTheater.AddShowtime("8:00", 2);
       myTheater.PrintMovies();
-
+      var userInput = Console.ReadLine();
+      if (Int32.TryParse(userInput, out int choice))
+      {
+        switch (choice)
+        {
+          case 1:
+            // Ticket.Purchase();
+            Console.WriteLine("You chose Titanic");
+            Console.WriteLine("What showtime would you like?");
+            break;
+          case 2:
+            // Ticket.Purchase();
+            Console.WriteLine("Sing");
+            Console.WriteLine("What showtime would you like?");
+            break;
+          case 3:
+            // Ticket.Purchase();
+            Console.WriteLine("Den of Thieves");
+            Console.WriteLine("What showtime would you like?");
+            break;
+          default:
+            System.Console.WriteLine("Invalid Choice Try again");
+            break;
+        }
+      }
     }
   }
 }
