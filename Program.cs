@@ -50,10 +50,12 @@ namespace ConsoleTheater
             Console.WriteLine("Den of Thieves -- Cops and Robbers!");
             Console.WriteLine("What showtime would you like?");
             break;
+          case 4:
           default:
-            System.Console.WriteLine("We are not showing that movie currently, is there one above you'd like instead?");
+            System.Console.WriteLine("We are not showing that movie currently, which number above would you like instead?");
             userInput = Console.ReadLine();
             break;
+
         }
       }
     }
