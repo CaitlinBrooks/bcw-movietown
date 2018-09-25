@@ -33,6 +33,7 @@ namespace ConsoleTheater
       var userInput = Console.ReadLine();
       if (Int32.TryParse(userInput, out int choice))
       {
+        //   Theater.pickmovie(userInput)
         switch (choice)
         {
           case 1:
@@ -52,10 +53,9 @@ namespace ConsoleTheater
             break;
           case 4:
           default:
-            System.Console.WriteLine("We are not showing that movie currently, which number above would you like instead?");
+            System.Console.WriteLine("We are not showing that movie currently, please try again.");
             userInput = Console.ReadLine();
             break;
-
         }
       }
     }
