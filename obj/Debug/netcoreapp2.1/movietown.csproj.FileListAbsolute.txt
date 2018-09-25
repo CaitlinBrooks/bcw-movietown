@@ -1,0 +1,11 @@
+C:\source\codeworks\movietown\bin\Debug\netcoreapp2.1\movietown.deps.json
+C:\source\codeworks\movietown\bin\Debug\netcoreapp2.1\movietown.runtimeconfig.json
+C:\source\codeworks\movietown\bin\Debug\netcoreapp2.1\movietown.runtimeconfig.dev.json
+C:\source\codeworks\movietown\bin\Debug\netcoreapp2.1\movietown.dll
+C:\source\codeworks\movietown\bin\Debug\netcoreapp2.1\movietown.pdb
+C:\source\codeworks\movietown\obj\Debug\netcoreapp2.1\movietown.csprojAssemblyReference.cache
+C:\source\codeworks\movietown\obj\Debug\netcoreapp2.1\movietown.csproj.CoreCompileInputs.cache
+C:\source\codeworks\movietown\obj\Debug\netcoreapp2.1\movietown.AssemblyInfoInputs.cache
+C:\source\codeworks\movietown\obj\Debug\netcoreapp2.1\movietown.AssemblyInfo.cs
+C:\source\codeworks\movietown\obj\Debug\netcoreapp2.1\movietown.dll
+C:\source\codeworks\movietown\obj\Debug\netcoreapp2.1\movietown.pdb
