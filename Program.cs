@@ -37,17 +37,17 @@ namespace ConsoleTheater
         switch (choice)
         {
           case 1:
-            // Ticket.Purchase();
+            // BuyTickets();
             Console.WriteLine("You chose Titanic -- What a classic!");
             Console.WriteLine("What showtime would you like?");
             break;
           case 2:
-            // Ticket.Purchase();
+            // BuyTickets();
             Console.WriteLine("Sing -- A fun family movie!");
             Console.WriteLine("What showtime would you like?");
             break;
           case 3:
-            // Ticket.Purchase();
+            // BuyTickets();
             Console.WriteLine("Den of Thieves -- Cops and Robbers!");
             Console.WriteLine("What showtime would you like?");
             break;
