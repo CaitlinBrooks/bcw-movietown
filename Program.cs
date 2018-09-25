@@ -24,7 +24,7 @@ namespace ConsoleTheater
       myTheater.AddShowtime("5:20", 1);
       myTheater.AddShowtime("8:30", 1);
       Movie denofthieves = new Movie("Den of Thieves");
-      myTheater.AddRoom(denofthieves, 80);
+      myTheater.AddRoom(denofthieves, 50);
       myTheater.AddShowtime("11:30", 2);
       myTheater.AddShowtime("2:00", 2);
       myTheater.AddShowtime("5:15", 2);
@@ -37,17 +37,17 @@ namespace ConsoleTheater
         {
           case 1:
             // Ticket.Purchase();
-            Console.WriteLine("You chose Titanic");
+            Console.WriteLine("You chose Titanic -- What a classic!");
             Console.WriteLine("What showtime would you like?");
             break;
           case 2:
             // Ticket.Purchase();
-            Console.WriteLine("Sing");
+            Console.WriteLine("Sing -- A fun family movie!");
             Console.WriteLine("What showtime would you like?");
             break;
           case 3:
             // Ticket.Purchase();
-            Console.WriteLine("Den of Thieves");
+            Console.WriteLine("Den of Thieves -- Cops and Robbers!");
             Console.WriteLine("What showtime would you like?");
             break;
           default:
