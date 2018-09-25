@@ -51,7 +51,8 @@ namespace ConsoleTheater
             Console.WriteLine("What showtime would you like?");
             break;
           default:
-            System.Console.WriteLine("Invalid Choice Try again");
+            System.Console.WriteLine("We are not showing that movie currently, is there one above you'd like instead?");
+            userInput = Console.ReadLine();
             break;
         }
       }
